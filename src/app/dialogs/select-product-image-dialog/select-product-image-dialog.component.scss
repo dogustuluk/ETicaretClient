@@ -1,0 +1,16 @@
+.product-image-card {
+  width: 200px;
+  height: 200px;
+  float:left;
+  margin-left:45px;
+  margin-bottom:10px;
+}
+.product-image-card img {
+  height: 68%;
+  object-fit: contain;
+}
+  .product-header-image {
+    background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+    background-size: cover;
+  }
+
