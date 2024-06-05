@@ -77,4 +77,14 @@ export class ProductService {
     successCallback();
   }
 
+  async changeShowcaseImage(imageId: string, productId: string, successCallBack?: () => void): Promise<void> {
+    const changeShowcaseImageObservable = this.httpClientService.get({
+      controller: "products",
+      action: "ChangeShowcaseProductImage",
+      queryString: `imageId=${imageId}&productId=${productId}`
+    });
+
+    await firstValueFrom(changeShowcaseImageObservable);
+    successCallBack();
+  }
 }

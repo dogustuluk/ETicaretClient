@@ -1,12 +1,11 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { DeleteDialogComponent } from './delete-dialog/delete-dialog.component';
-import { FileUploadDialogComponent } from './file-upload/file-upload-component.component';
-import { MatDialogModule } from '@angular/material/dialog';
+import { NgModule } from '@angular/core';
 import { MatButtonModule } from '@angular/material/button';
-import { SelectProductImageDialogComponent } from './select-product-image-dialog/select-product-image-dialog.component';
-import { FileUploadModule } from '../services/common/file-upload/file-upload.module';
 import { MatCardModule } from '@angular/material/card';
+import { MatDialogModule } from '@angular/material/dialog';
+import { FileUploadModule } from '../services/common/file-upload/file-upload.module';
+import { DeleteDialogComponent } from './delete-dialog/delete-dialog.component';
+import { SelectProductImageDialogComponent } from './select-product-image-dialog/select-product-image-dialog.component';
 
 
 
@@ -18,7 +17,8 @@ import { MatCardModule } from '@angular/material/card';
   imports: [
     CommonModule,
     MatDialogModule, MatButtonModule, MatCardModule,
-    FileUploadModule
+    FileUploadModule,
+    
   ]
 })
 export class DialogModule { }
