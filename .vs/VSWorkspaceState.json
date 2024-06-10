@@ -3,10 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
+    "\\src\\app\\contracts",
+    "\\src\\app\\contracts\\basket",
     "\\src\\app\\ui",
     "\\src\\app\\ui\\components",
-    "\\src\\app\\ui\\components\\basket"
+    "\\src\\app\\ui\\components\\basket",
+    "\\src\\app\\ui\\components\\products",
+    "\\src\\app\\ui\\components\\products\\list"
   ],
-  "SelectedNode": "\\src\\app\\ui\\components\\basket\\basket.module.ts",
+  "SelectedNode": "\\src\\app\\contracts\\basket\\update_basket_item.ts",
   "PreviewInSolutionExplorer": false
 }
